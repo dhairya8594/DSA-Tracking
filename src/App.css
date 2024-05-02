@@ -1,0 +1,282 @@
+/* File Name App.css */
+
+.main-page {
+  font-family: Lato, cursive;
+  font-weight: 900;
+  color: #69d100;
+  position: relative;
+  align-content: stretch;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* Cards  */
+.card{
+  background-image: linear-gradient(135deg, #00f9fa, #db27bfd0);
+  width: 290px;
+  height: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 50px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 10px;
+  transition: 0.5s;
+  box-shadow: 0;
+
+}
+.card :hover {
+  /* transform: scale(1.1); */
+  box-shadow: 1px 5px 10px #6c6c6ceb;
+
+}
+.Cards-list{
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  box-shadow: 0;
+  transition: 0.5s;
+
+
+}
+.Cards-list :hover{
+  box-shadow: 1px 5px 10px #6c6c6ceb;
+
+}
+/* Cards - end  */
+
+/* button CSS */
+.bn39 {
+  background-image: linear-gradient(135deg, #008aff, #86d472);
+  border-radius: 6px;
+  box-sizing: border-box;
+  color: #ffffff;
+  display: block;
+  height: 50px;
+  font-size: 1.4em;
+  font-weight: 600;
+  padding: 4px;
+  position: relative;
+  text-decoration: none;
+  width: 7em;
+  z-index: 2;
+  border: 1px solid;
+}
+
+.bn39:hover {
+  color: #fff;
+}
+
+.bn39 .bn39span {
+  align-items: center;
+  background: #0e0e10;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  transition: background 0.5s ease;
+  width: 100%;
+}
+
+.bn39:hover .bn39span {
+  background: transparent;
+}
+/* Button-end */
+
+
+/* Table CSS */
+table {
+  width: 1110px;
+  height: 220px;
+  border-collapse: collapse;
+  position: relative;
+  margin-left: 0px;
+  transition: 0.5s;
+}
+
+
+th {
+  border-bottom: 2px solid rgb(255, 255, 255);
+  border: 2px solid rgb(255, 255, 255);
+  color:#ffffff;
+}
+
+td {
+  text-align: center;
+  border: 1px solid rgb(255, 255, 255);
+  transition: 0.5s;
+  color: #69d100;
+  height: 30px;
+
+}
+.td :hover{
+  color: #008aff;
+}
+
+/* Table CSS END */
+input[type="checkbox"] { 
+  height: 20px; 
+  width: 20px; 
+  margin-right: 10px;
+}	
+
+.ready { font-size: 1.5em; }
+.ui-progressbar-value { background: lightgreen; }
+.progressbar-container {
+  position: relative;
+  width: 350px; 
+}
+
+.progress-bar-container{
+  width: 500px;
+    background-color: grey;
+    height: 25px;
+    transition: width 0.3s ease-in-out;
+    position: relative;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    color: black;
+    justify-content: flex-start;
+    align-items: center;
+    border: 2px solid #3e3e3e;
+
+}
+.progress-bar{
+  background-color: #69d100;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.Back{
+  position: relative;
+  left: 10px;
+  top: 10px;
+}
+@media screen and (min-width: 350px) and (max-width: 700px) {
+
+  .main-page{
+    font-family: Lato, cursive;
+    font-weight: 900;
+    color: #69d100;
+    position: relative;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .progress-bar-container {
+    width: 319px;
+    background-color: grey;
+    height: 25px;
+    transition: width 0.3s ease-in-out;
+    position: relative;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    color: black;
+    justify-content: flex-start;
+    align-items: center;
+    border: 2px solid #3e3e3e;
+}
+table {
+  width: 535px;
+  height: 220px;
+  border-collapse: collapse;
+  position: relative;
+  margin-left: 195px;
+  transition: 0.5s;
+}
+}
+@media screen and (min-width: 750px) and (max-width: 1000px) {
+    /* Cards  */
+.card{
+  background-image: linear-gradient(135deg, #00f9fa, #db27bfd0);
+  width: 290px;
+  height: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 45px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 10px;
+  transition: 0.5s;
+  box-shadow: 0;
+
+}
+.card :hover {
+  /* transform: scale(1.1); */
+  box-shadow: 1px 5px 10px #6c6c6ceb;
+
+}
+.Cards-list{
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  box-shadow: 0;
+  transition: 0.5s;
+
+
+}
+.Cards-list :hover{
+  box-shadow: 1px 5px 10px #6c6c6ceb;
+
+}
+  .main-page{
+    font-family: Lato, cursive;
+    font-weight: 900;
+    color: #69d100;
+    position: relative;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .progress-bar-container {
+    width: 500px;
+    background-color: grey;
+    height: 25px;
+    transition: width 0.3s ease-in-out;
+    position: relative;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    color: black;
+    justify-content: flex-start;
+    align-items: center;
+    border: 2px solid #3e3e3e;
+}
+table {
+  width: 702px;
+  height: 220px;
+  border-collapse: collapse;
+  position: relative;
+  margin-left: 0px;
+  transition: 0.5s;
+  margin-left: 0px;
+}
+}
